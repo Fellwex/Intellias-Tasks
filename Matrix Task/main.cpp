@@ -14,11 +14,14 @@ int main()
 	FillMatrix(b);
 	a.Print(std::cout);
 	std::cout << "\n";
+	
 	b.Print(std::cout);
 	std::cout << "\n";
+	
 	Matrix c = a * b;
 	c.Print(std::cout);
-
+        std::cout << "\n";
+	
 	a = a.Transpose();
 	a.Print(std::cout);
 }
